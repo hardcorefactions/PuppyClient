@@ -9,10 +9,7 @@ import dev.isnow.puppy.exploit.impl.flood.ChannelExploit;
 import dev.isnow.puppy.exploit.impl.flood.CommandBlockExploit;
 import dev.isnow.puppy.exploit.impl.flood.LuckpermsExploit;
 import dev.isnow.puppy.exploit.impl.nbt.*;
-import dev.isnow.puppy.exploit.impl.other.FaweExploit;
-import dev.isnow.puppy.exploit.impl.other.MultiverseExploit;
-import dev.isnow.puppy.exploit.impl.other.PEXExploit;
-import dev.isnow.puppy.exploit.impl.other.SpamExploit;
+import dev.isnow.puppy.exploit.impl.other.*;
 import dev.isnow.puppy.helper.MinecraftFontRenderer;
 import dev.isnow.puppy.rpc.DiscordRichPresenceManager;
 import net.arikia.dev.drpc.DiscordRPC;
@@ -117,6 +114,7 @@ public enum Puppy {
         new MultiverseExploit(),
         new PEXExploit(),
         new ChannelExploit(),
+        new ECBExploit(),
         new LuckpermsExploit()
     );
 
